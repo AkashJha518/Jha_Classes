@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Website Login</title>
+</head>
+
+<body>
+    <fieldset>
+        <section class="outline">
+            <p class="Welcome">Welcome to the page!</p>
+            <section class="mid">
+                <label><input type="text" name="userName" size="20" maxlength="30"
+                        placeholder="Login-ID" id="username"/></label><br>
+            </section>
+            <section class="mid">
+                <label><input type="text" name="Email" size="20" maxlength="40"
+                        placeholder="Enter Password" id="password"/></label><br>
+            </section>
+            <section class="mid">
+                <input class="button" type = submit onclick="validate()">
+            </section>
+        </section>
+        <section class="mid font">
+            <b><a href="">Forgot Password?</a></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><a href="">SignUp</a></b>
+        </section>
+    </fieldset>
+    <script src="login.js"></script>
+</body>
+
+</html>
