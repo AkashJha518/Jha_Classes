@@ -7,25 +7,40 @@
     box-sizing: border-box;
 }
 
+
 body {
-    background: black;
+    background: rgb(46, 248, 171);
     
 }
-
+.landing{
+    margin: 3%;
+    padding: 150px;
+    background-color: rgba(24, 218, 208, 0.904);
+    background-image: url("image.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.landing p{
+    font-size: 100px;
+    color: #E74C3C;
+    text-align: center;
+}
 header {
     width: 100%;
     height: 80px;
-    background: rgb(96, 235, 240);
+    background: rgb(46, 248, 171);;
     display: flex;
     top: 0;
     align-items: center;
     justify-content: space-between;
     padding: 0 100px;
     position: fixed;
+    z-index: 1;
 }
 
 main{
     margin-top: 100px;
+    z-index: 0;
 }
 
 /* .logo1{
@@ -83,8 +98,8 @@ header .logo1 {
 }
 
 .nav-bar ul li a:hover {
-    color: rgb(255, 255, 255);
-    background: #000000;
+    color: rgb(0, 0, 0);
+    background: #e5e2e2;
 }
 
 .nav-bar ul li a.active {
@@ -104,6 +119,7 @@ header .logo1 {
     flex-wrap: wrap;
     margin: 3%;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    /* z-index: 1; */
 }
 
 /* .exp .container .box .title {
@@ -123,14 +139,16 @@ header .logo1 {
     margin-top: 2%;
     margin-left: 4%;
     margin-bottom: 2%;
+    /* z-index: 1; */
 }
 .container .box .desc a{
     width: fit-content;  
     font: 1em sans-serif;
-    border-radius: 10px;
-    border: solid black; 
+    /* border-radius: 10px;
+    border: solid black;  */
     margin-top: 2px;
     padding: 5px;
+    /* z-index: 1; */
 }
 
 .container .box .desc a::content{
@@ -141,6 +159,7 @@ header .logo1 {
     /* background: black ; */
     width: fit-content;
     /* visibility:hidden; */
+    /* z-index: 1; */
     
 }
 
@@ -148,11 +167,38 @@ header .logo1 {
     header {
         padding: 0 50px;
     }
+
+    .landing{
+        margin: 3%;
+        padding: 100px;
+        background-color: rgba(24, 218, 208, 0.904);
+        background-image: url("image.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .landing p{
+        font-size: 70px;
+        color: #E74C3C;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
     header {
         padding: 0 30px;
+    }
+    .landing{
+        margin: 3%;
+        padding: 100px;
+        background-color: rgba(24, 218, 208, 0.904);
+        background-image: url("image.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .landing p{
+        font-size: 70px;
+        color: #E74C3C;
+        text-align: center;
     }
 }
 
@@ -181,9 +227,9 @@ header .logo1 {
         /* left: 10; */
         right: 0;
         /* width: 100vw; */
-        background: rgb(59, 216, 177);
+        background: rgb(71, 239, 245);
         transition: 0.2s;
-        overflow: hidden;
+        overflow: scroll;
         /* justify-content: center; */
         /* align-items: center; */
         /* align-content: center; */
@@ -192,7 +238,7 @@ header .logo1 {
     }
 
     .nav-bar.active {
-        height: 57%;
+        height: 48%;
         transform: translateX(0px);
         transition: 0.5s;
         position: fixed;
@@ -206,7 +252,7 @@ header .logo1 {
     .nav-bar ul {
         display: block;
         width: fit-content;
-        margin: 80px auto 0 auto;
+        margin: 25px auto 0 auto;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -223,5 +269,19 @@ header .logo1 {
     .nav-bar ul li a {
         margin-bottom: 12px;
         /* color: red; */
+    }
+
+    .landing{
+        margin: 3%;
+        padding: 70px;
+        background-color: rgba(24, 218, 208, 0.904);
+        background-image: url("image.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .landing p{
+        font-size: 50px;
+        color: #E74C3C;
+        text-align: center;
     }
 }

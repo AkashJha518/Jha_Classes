@@ -6,29 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
-    <title>Website Login</title>
+    <title>Jha Classes</title>
 </head>
 
 <body>
-    <fieldset>
-        <section class="outline">
-            <p class="Welcome">Welcome to the page!</p>
-            <section class="mid">
-                <label><input type="text" name="userName" size="20" maxlength="30"
-                        placeholder="Login-ID" id="username"/></label><br>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="login.css">
+        <title>Website Login</title>
+    </head>
+
+    <body>
+        <fieldset class="container">
+            <section class="box">
+                <p class="desc">Welcome to the page!</p>
+                <section class="mid">
+                    <label>
+                        <input type="text" name="userName" size="20" maxlength="30" placeholder="Login-ID"
+                            id="username" />
+
+                    </label><br>
+                </section>
+                <section class="mid">
+                    <label>
+                        <input type="text" name="Email" size="20" maxlength="40" placeholder="Enter Password"
+                            id="password" />
+                    </label><br>
+                </section>
+                <section class="mid">
+                    <input class="button" type=submit onclick="validate()">
+                </section>
+
+                <section class="mid font">
+                    <b><a href="">Forgot Password?</a></b><b><a
+                            href="">SignUp</a></b>
+                </section>
             </section>
-            <section class="mid">
-                <label><input type="text" name="Email" size="20" maxlength="40"
-                        placeholder="Enter Password" id="password"/></label><br>
-            </section>
-            <section class="mid">
-                <input class="button" type = submit onclick="validate()">
-            </section>
-        </section>
-        <section class="mid font">
-            <b><a href="">Forgot Password?</a></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b><a href="">SignUp</a></b>
-        </section>
-    </fieldset>
+        </fieldset>
+        <script src="login.js"></script>
+    </body>
+
+    </html>
+
+
+    <!--<div class="container">
+    <div class="box">
+        
+            <div class="top-header">
+                <span>Have an account?</span>
+                <header>Login</header>
+            </div>
+
+            <div class="input-field">
+                <input type="username" class="input" placeholder="username" required id="username">
+            </div>
+            <div class="input-field">
+                <input type="password" class="input" placeholder="password" required id="password">
+            </div>
+            <div class="input-field">
+                <input type="submit" class="submit" value="Login">
+            </div>
+
+            <div class="bottom">
+                <div class="left">
+                    <input type="checkbox" id="check">
+                    <label for="check">Remember Me</label>
+                </div>
+                <div class="right">
+                    <label><a href="#">Forgot password?</a></label>
+                </div>
+            </div>
+        </div> -->
+    </div>
     <script src="login.js"></script>
 </body>
 
