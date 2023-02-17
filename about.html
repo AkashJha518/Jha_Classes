@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="logo/Jha Classes.gif" type="image/gif">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="utils.css">
     <title>Jha Classes</title>
 </head>
 
 <body>
+    <div class="background"></div>
     <header>
         <img class="logo" src="logo/Jha Classes.gif" alt="Jha Classes">
         <!-- <div class="logo1">Jha Classes <br><sup>पढ़ लो बच्चो</sup></div> -->
@@ -24,7 +26,7 @@
                 <li>
                     <a href="index.html">Home</a>
                 </li>
-                <li><a href="about.html"  class="active">About</a></li>
+                <li><a href="about.html" class="active">About</a></li>
                 <li><a href="blogs.html">Blogs</a></li>
                 <li><a href="Team.html">Team</a></li>
                 <li><a href="Contact.html">Contact</a></li>
@@ -32,15 +34,33 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <div class="container">
+            <h1>About Us</h1>
+        </div>
+        <div class="container">
             <div class="box">
-                <p class="desc">
-                    Under Maintanence
-                </p>
+
+                <p class="A1">Welcome to our Jha Classes website! We are a team of educators and professionals who are passionate
+                    about providing high-quality education to students around the world.</p>
+                <p class="A1">Our mission is to empower students to reach their full potential by providing them with the knowledge
+                    and skills they need to succeed in school and in life. We believe that education is the key to a
+                    better future, and we are committed to making it accessible to everyone.</p>
+                <p class="A1">We offer a wide range of educational resources, including articles, videos, and interactive
+                    exercises, that are designed to help students learn and grow. Our content covers a variety of
+                    subjects, including math, science, history, literature, and more.</p>
+                <p class="A1">We are constantly updating our website with new content and features to ensure that our students have
+                    access to the latest and most effective learning tools. Our team of educators and professionals is
+                    dedicated to providing personalized support and guidance to our students, so they can achieve their
+                    goals.</p>
+
             </div>
         </div>
     </main>
+    <footer>
+        <p>&copy; 2023 <i>Jha Classes</i>. All rights reserved.</p>
+    </footer>
     <script>
         humburger = document.querySelector(".humburger");
         humburger.onclick = function () {
@@ -48,6 +68,7 @@
             navBar.classList.toggle("active");
         }
     </script>
+    <script src="about.js"></script>
     <script src="main.js"></script>
 </body>
 

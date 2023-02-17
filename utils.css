@@ -1,0 +1,114 @@
+
+/* About page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    margin: 3%;
+  }
+  .container .box{
+    padding-bottom: 3%;
+  }
+  .container .box .A1{
+    font-size: 25px;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+
+  
+  /* Blogs Styling */
+  
+  /* CSS code for the main section */
+ 
+  
+  .blog-post {
+    margin-bottom: 2rem;
+    padding: 3%;
+  }
+  
+  .blog-post h2 {
+    margin: 0 0 0.5rem;
+    font-size: 2rem;
+  }
+  
+  .blog-post .date {
+    font-style: italic;
+    margin: 0;
+  }
+  
+  .blog-post ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .blog-post a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #1c1c1c;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .blog-post a:hover {
+    background-color: #444;
+  }
+   
+
+  /* Team page Styling */
+
+  /* main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  } */
+  
+  .team-heading {
+    text-align: center;
+  }
+
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-member {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .team-member img:hover {
+    transform: scale(1.1);
+  }
+  
+  .team-member h2 {
+    margin-top: 10px;
+  }
+  
+  .team-member p {
+    margin-top: 5px;
+    color: #999;
+  }
+  
+  
+  
+  
