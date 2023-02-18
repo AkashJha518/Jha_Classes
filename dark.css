@@ -1,0 +1,21 @@
+body {
+    background-color: #524e4e;
+    color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  button {
+    display: block;
+    color: rgb(241, 234, 234);
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: none;
+    background: rgb(8, 8, 8);
+    transition: 0.2s;
+    margin: 0 5px;
+  }
+  

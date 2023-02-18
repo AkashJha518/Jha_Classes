@@ -16,7 +16,7 @@ body {
     padding-bottom: 3%;
   }
   .container .box .A1{
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 3%;
     margin-left: 4%;
     margin-right: 4%;
@@ -36,18 +36,24 @@ body {
   
   .blog-post h2 {
     margin: 0 0 0.5rem;
-    font-size: 2rem;
+    font-size: 25px;
   }
   
   .blog-post .date {
     font-style: italic;
+    font-size: 20px;
     margin: 0;
+  }
+
+  .blog-post p {
+    /* margin: 0 0 0.5rem; */
+    font-size: 20px;
   }
   
   .blog-post ul {
-    list-style: disc;
+    /* list-style:circle; */
     margin-left: 1.5rem;
-    font-size: 1.2rem;
+    font-size: 18px;
   }
   
   .blog-post a {
@@ -61,7 +67,7 @@ body {
   }
   
   .blog-post a:hover {
-    background-color: #444;
+    background-color: #646262;
   }
    
 

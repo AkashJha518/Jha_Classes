@@ -1,4 +1,4 @@
-/*  */
+/* */
 .intro-container {
 	margin: 0 auto;
 	max-width: 800px;
@@ -10,12 +10,13 @@
 }
 
 .intro-container h1 {
-	font-size: 40px;
+	font-size: 30px;
 	margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .intro-container p {
-	font-size: 25px;
+	font-size: 20px;
 	line-height: 1.5;
 	margin-bottom: 20px;
 }
@@ -32,17 +33,17 @@
 }
 
 
-.background {
+/* .background {
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	z-index: -1;
-}
-
+} */
 
 /*  */
+
 * {
     margin: 0;
     padding: 0;
@@ -57,7 +58,7 @@
     background: rgb(114, 240, 191);
     
 } */
-.landing{
+/* .landing{
     margin: 3%;
     padding: 150px;
     background-color: rgba(24, 218, 208, 0.904);
@@ -69,7 +70,8 @@
     font-size: 100px;
     color: #E74C3C;
     text-align: center;
-}
+} */
+
 header {
     width: 100%;
     height: 80px;
@@ -85,7 +87,11 @@ header {
 
 main{
     margin-top: 100px;
-    z-index: 0;
+    margin-bottom: 55px;
+    /* min-height: 80%; */
+    /* z-index: 0; */
+    
+    
 }
 
 /* .logo1{
@@ -153,8 +159,7 @@ header .logo1 {
 }
 
 .container>.box {
-    /* top: 50px; */
-    background: #fefefe;
+    /* background: #ffffff; */
     border: 1.5px rgba(0, 12, 12, 0.383) solid;
     border-radius: 0.5rem;
     font-size: 1rem;
@@ -164,7 +169,7 @@ header .logo1 {
     flex-wrap: wrap;
     margin: 3%;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    /* z-index: 1; */
+
 }
 
 /* .exp .container .box .title {
@@ -207,7 +212,7 @@ header .logo1 {
     /* z-index: 1; */
     
 }
-footer {
+/* footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -219,7 +224,31 @@ footer {
   footer p {
     font-size: 20px;
     line-height: 1.5;
-  }
+  } */
+
+  /* Set the height of the footer */
+/* footer {
+	height: 50px;
+} */
+
+/* Position the footer at the bottom of the page */
+footer {
+	position: fixed;
+    /* height: fit-content; */
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/* Add styles to the footer content */
+footer p {
+	margin: 0;
+	padding: 10px;
+    background: rgb(46, 248, 171);;
+	color: #000000;
+	text-align: center;
+}
+
 
 @media only screen and (max-width: 1320px) {
     header {
