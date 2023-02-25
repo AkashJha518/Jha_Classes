@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: #bda3a3a2;
   color: #333333;
 }
 
@@ -8,10 +8,10 @@ h1 {
 }
 
 button {
-  display: block;
+  display: flex;
   color: rgb(0, 0, 0);
   font-size: 20px;
-  padding: 10px 25px;
+  padding: 10px 35px;
   border-radius: 50px;
   background: none;
   border: none;
